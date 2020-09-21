@@ -1,3 +1,6 @@
+/* This Style Sheet contain Extra Bootstrap extended classes. Remember not to use this sheet. */
+
+
 /*--- Extra Bootstrap Column Padding --*/
 [class*="col-"] {
   padding: 1rem;

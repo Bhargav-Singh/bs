@@ -1,9 +1,10 @@
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
-
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+/* Default */
 body{
   overflow-x: hidden;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #505962;
 
 
@@ -49,9 +50,10 @@ html {
   padding-top: 0.8rem;
 } 
 
+/* Link Color change from here... note this   */
 .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover {
 
-  color: aqua;
+  color: #E79EFF;
 
 }
 
@@ -137,13 +139,13 @@ h3.heading {
 .heading-underline{
   width: 3rem;
   height: .2rem;
-  background-color: #1ebba3;
+  background-color: #E79EFF;
   margin: 0 auto 2rem;
 }
 
 .feature svg.svg-inline--fa {
 
-  color: #1ebba3;
+  color: #E79EFF;
   
 }
 .feature h3 {
@@ -191,8 +193,8 @@ h3.heading {
   font-size: 1.2rem;
   text-transform: uppercase;
   margin: 1rem;
-  border-color: #1EBBA3;
-  background-color: #1EBBA3;
+  border-color: #E79EFF;
+  background-color: #E79EFF;
   color: white;
 }
 .btn-secondary:hover,
@@ -234,10 +236,13 @@ footer svg.svg-inline--fa {
 footer svg.svg-inline--fa:hover {
 
 
-  color: #1ebba3;
+  color: #E79EFF;
 }
 
-/*============ BOOTSTRAP BREAK POINTS:
+
+
+
+/*========= Break Points For Bootstrap Responsive:
 
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
